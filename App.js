@@ -8,6 +8,7 @@ import ExibeItens from './components/ExibeItens.js'
 export default function App() {
 
   const [covid, setCovid] = useState([])
+  
   const [contadorCovid, setContadorCovid] = useState(0);
 
 
@@ -16,6 +17,7 @@ export default function App() {
       setContadorCovid(contadorCovid + 1)
       return [{key: contadorCovid + '', descricao: descricao, fabricante: fabricante}, ...covid]
     })
+
   }
 
   const limparLista = () => {
