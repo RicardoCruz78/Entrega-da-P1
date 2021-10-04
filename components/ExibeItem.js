@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         padding: 12,
         marginBottom: 12,
-        shadowColor: "#000",
+        shadowColor: "#B0E0E6",
         shadowOffset: {
             width: 0,
             height: 2,
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     },
 
     separator: {
-        borderBottomColor: '#EFEFEF',
-        borderWidth: 0.5,
+        borderBottomColor: '#8B0000',
+        borderWidth: 1.5,
     }
 })

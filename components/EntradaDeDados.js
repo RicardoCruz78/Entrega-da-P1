@@ -51,7 +51,7 @@ export default (props) => {
 
 const style = StyleSheet.create({
     input: {
-        borderBottomColor: '#9E9E9E',
+        borderBottomColor: '#FFE4B5',
         borderBottomWidth: 1,
         fontSize: 15,
         padding: 8,

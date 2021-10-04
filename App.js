@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     width: '100%',
     padding: 20,
     marginVertical: 40,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFE4B5',
     justifyContent: 'flex-start',
   },
 });
