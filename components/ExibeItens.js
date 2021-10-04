@@ -22,6 +22,7 @@ export default class ExibeItens extends Component {
     }
 
     componentDidUpdate() {
+        
         if (this.props.chave !== this.state.chave) {
             this.atualizar()
             this.setState({chave: this.props.chave})

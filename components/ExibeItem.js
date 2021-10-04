@@ -12,6 +12,7 @@ export default (props) => {
 }
 
 const styles = StyleSheet.create({
+    
 
     container: {
         borderBottomColor: '#DDD',
